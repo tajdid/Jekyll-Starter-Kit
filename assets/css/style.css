@@ -78,7 +78,7 @@ textarea {
   text-rendering: optimizeLegibility; }
 
 html {
-  background-color: #FFFFFF;
+  background-color: #eeeeee;
   color: #000000; }
 
 a {
@@ -152,9 +152,21 @@ textarea {
 .container {
   max-width: 1024px;
   width: 100%;
+  padding: 0 16px;
   margin: 0 auto; }
 
+ul {
+  list-style: none; }
+
+.content {
+  margin: 50px 0; }
+  .content .page-title {
+    font-size: 2em;
+    margin-bottom: 28px; }
+
 .header {
+  background: white;
+  width: 100%;
   padding: 50px 0; }
   .header .site-title {
     float: left; }
@@ -163,3 +175,15 @@ textarea {
     .header nav li {
       display: inline;
       margin-left: 30px; }
+
+.posts li {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d6d6d6; }
+  .posts li a {
+    font-size: 1.2em;
+    font-weight: 700; }
+  .posts li span {
+    display: block;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    color: #666; }
