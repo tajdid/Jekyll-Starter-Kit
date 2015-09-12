@@ -1,11 +1,11 @@
 Jekyll Starter Kit
 =============================
 
-A personal starter kit including full setup for Jekyll, GulpJS, Sass, AutoPrefixer &amp; BrowserSync.
+A personal starter kit including full setup for (Jekyll)[https://jekyllrb.com], GulpJS, Sass, AutoPrefixer &amp; BrowserSync.
 
-## System Preparation
+## Requirements
 
-To use this starter project, you'll need the following things installed on your machine.
+If you want to use this starter kit, then you'll need the following dependencies installed on your machine.
 
 1. [Jekyll](http://jekyllrb.com/) - `$ gem install jekyll`
 2. [NodeJS](http://nodejs.org) - use the installer.
@@ -20,7 +20,7 @@ To use this starter project, you'll need the following things installed on your 
 
 **development mode**
 
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
+This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting, etc.
 
 ```shell
 $ gulp
